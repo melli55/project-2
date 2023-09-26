@@ -1,1 +1,11 @@
 /* Place CSS styles here */
+
+
+.revive-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.revive-featured-wrapper {
+    display: flex;
+}
