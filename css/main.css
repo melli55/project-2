@@ -22,15 +22,13 @@ body {
 .revive-header {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(250, 251, 251);
+    background-color: rgb(255, 255, 255);
     height: 100px;
+    align-items: center;
+    justify-content: left;
+    
 }
 
-.revive-nav {
-    display: flex;
-    align-items: center;
-    flex: 1;
-}
 
 .revive-main {
     background-color: #80C1D8;
@@ -49,4 +47,26 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    color: #013850;
+}
+
+li {
+    float: left;
+    align-items: center;
+    color: #013850;
+}
+
+li a {
+    display: block;
+    color: #013850;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #013850;
+    color: white;
 }
