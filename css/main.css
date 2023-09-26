@@ -1,11 +1,31 @@
 /* Place CSS styles here */
 
+body {
+    color: pink;
+    background-color: burlywood;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.revive-main-wrapper {
+    background: #000000;
+}
 
 .revive-header {
     display: flex;
     justify-content: space-between;
+    background-color: aliceblue;
 }
 
 .revive-featured-wrapper {
     display: flex;
+    background-color: aliceblue;
+}
+
+.revive-main {
+    background-color: black;
+}
+
+.revive-footer {
+    background-color: aquamarine;
 }
