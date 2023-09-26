@@ -1,31 +1,52 @@
 /* Place CSS styles here */
 
 body {
-    color: pink;
-    background-color: burlywood;
+    color: rgb(0, 0, 0);
+    background-color: #80C1D8;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 .revive-main-wrapper {
-    background: #000000;
+    background: #80C1D8;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.revive-featured-wrapper {
+    display: flex;
+    background-color: aqua;
 }
 
 .revive-header {
     display: flex;
     justify-content: space-between;
-    background-color: aliceblue;
+    background-color: rgb(250, 251, 251);
+    height: 100px;
 }
 
-.revive-featured-wrapper {
+.revive-nav {
     display: flex;
-    background-color: aliceblue;
+    align-items: center;
+    flex: 1;
 }
 
 .revive-main {
-    background-color: black;
+    background-color: #80C1D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .revive-footer {
-    background-color: aquamarine;
+    background-color: #013850;
+    height: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
