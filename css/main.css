@@ -30,9 +30,16 @@ body {
     flex-direction: column;
 }
 
+ 
+.girl {
+    float: right;
+    margin-top: 10px;
+}
+
 .revive-footer {
     background-color: #013850;
     height: 200px;
+    
 }
 
   
