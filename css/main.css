@@ -12,6 +12,7 @@ body {
     background-color: rgb(255, 255, 255);
     height: 80px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .revive-nav {
@@ -37,14 +38,31 @@ body {
     background-color: rgb(33, 104, 151);
     height: 100vh;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .container {
   align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+
+
 }
 
-.white {
-  
+.bluefin {
+  margin-right: 5px;
+}
+
+
+.whitecap {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.seashell {
+  margin-left: 5px;
 }
  
 .girl {
