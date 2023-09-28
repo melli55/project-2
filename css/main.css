@@ -9,11 +9,23 @@ body {
 
 .revive-header {
     display: flex;
-    justify-content: space-between;
     background-color: rgb(255, 255, 255);
-    height: 100px;
+    height: 80px;
+    align-items: center;
+}
+
+.revive-nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    float: right;
+}
+
+.logo {
+    display: flex;
     align-items: center;
     justify-content: left;
+    float: left;
 }
 
 .revive-main-wrapper {
