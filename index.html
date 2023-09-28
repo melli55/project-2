@@ -26,20 +26,23 @@
   <!-- Place your site's HTML here -->
 
 
-
- <header class="revive-header">
-  <div class="revive-nav">
-    <ul>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Our Mission</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
+<header class="revive-header">
   <div class="logo">
-    <img src="./img/revive logo.png" alt="" width="150" height="50">
+    <img src="./img/revive logo.png" alt="" width="150" height="50">    
   </div>
-</header>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About Us</a>
+    <a href="#">Our Mission</a>
+    <a href="#">Contact Us</a>
+  </div>
+  
+  <div id="button">
+    <button class="openbtn" onclick="openNav()">&#9776; </button> 
 
+  </div>
+ 
+</header>
 
 
 
@@ -57,6 +60,11 @@
 
 
 <div class="revive-featured-wrapper">
+    <div class="container">
+      <img src="./img/blue.png" alt="" width="450" height="300">
+      <img src="./img/white.png" alt="" width="450" height="300">
+      <img src="./img/grey.png" alt="" width="450" height="300">
+    </div>
       <form action="/action_page.php" method="get">
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname"><br><br>

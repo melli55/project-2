@@ -16,23 +16,20 @@ body {
 
 .revive-nav {
     display: flex;
-    align-items: center;
-    justify-content: right;
     float: right;
+    align-items: right;
+    
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    float: left;
+    margin-left: 50px;
 }
 
 .revive-main-wrapper {
     background: #6bc4eb;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 50vh;
 }
 
 .revive-featured-wrapper {
@@ -42,6 +39,13 @@ body {
     flex-direction: column;
 }
 
+.container {
+  align-items: center;
+}
+
+.white {
+  
+}
  
 .girl {
     float: right;
@@ -57,7 +61,7 @@ body {
   
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-    height: 50%;
+    height: 100%;
     align-items: center;
     background-size: cover;
     position: relative;
@@ -70,6 +74,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    width: 50%;
   } 
 
 
@@ -102,3 +107,61 @@ li a:hover {
     background-color: #013850;
     color: white
 }
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#1f4a5c;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e5e7ec;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #154255;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #013850;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #013850;
+  }
+  
+  #button {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
