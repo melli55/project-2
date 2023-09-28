@@ -1,143 +1,93 @@
 /* Place CSS styles here */
 
 body {
-    color: rgb(0, 0, 0);
-    background-color: #f6f6f6;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #f6f6f6;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
+
+/* Header and Nav */
 .revive-header {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    height: 80px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .revive-nav {
-    display: flex;
-    float: right;
-    align-items: right;
+  display: flex;
+  float: right;
+  align-items: right;
     
 }
 
 .logo {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
+
+/* Main */
 .revive-main-wrapper {
-    background: #6bc4eb;
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
+  background: #6bc4eb;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
 }
 
-.revive-featured-wrapper {
-    display: flex;
-    background-color: rgb(33, 104, 151);
-    height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 100%;
+  align-items: center;
+  background-size: cover;
+  position: relative;
+}
+  
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 50%;
+} 
 
+
+/* Featured */
+.revive-featured-wrapper {
+  display: flex;
+  background-color: rgb(33, 104, 151);
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
+  display: flex;
   align-items: center;
   margin-top: auto;
   margin-bottom: auto;
-
-
-}
-
-.bluefin {
-  margin-right: 5px;
-}
-
-
-.whitecap {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.seashell {
-  margin-left: 5px;
+  justify-content: space-between;
 }
  
-.girl {
-    float: right;
-    margin-top: 10px;
-}
-
-.revive-footer {
-    background-color: #013850;
-    height: 200px;
-    
-}
-
-  
-  .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-    height: 100%;
-    align-items: center;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    width: 50%;
-  } 
 
 
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    color: #013850;
-}
-
-li {
-    float: left;
-    align-items: center;
-    color: #013850;
-}
-
-li a {
-    display: block;
-    color: #013850;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #013850;
-    color: white
-}
-
-
+/* Collapse Nav Button */
 .sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:#1f4a5c;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#1f4a5c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
   }
   
   .sidebar a {
@@ -183,3 +133,16 @@ li a:hover {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+
+/* Footer */
+.revive-footer {
+  background-color: #013850;
+  height: 200px;
+} 
+  
+.girl {
+  float: right;
+  margin-top: 10px;
+}
+    
+    
