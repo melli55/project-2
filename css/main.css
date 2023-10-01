@@ -7,6 +7,9 @@ body {
 
 }
 
+p {
+  margin-left: 15px;
+}
 
 h1 {
   font-size: 35px;
@@ -16,16 +19,21 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
-  margin-bottom: -15px;
+  margin-bottom: -10px;
+  margin-left: 15px;
+
 }
 
 h3 {
   font-size: 15px;
   text-transform: uppercase;
   float: right;
-  margin-top: -10px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
 }
 
 
@@ -52,16 +60,16 @@ h3 {
 
 /* Main */
 .revive-main-wrapper {
-  background: #6bc4eb;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 75vh;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
   height: 100%;
-  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -98,19 +106,41 @@ h3 {
 .whitewb {
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #013850;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 25px;
 }
 
 .bluewb {
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 25px;
+
 }
 
 .greywb {
   margin-left: auto;
-  margin-right: 50px;
+  margin-right: auto;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.stars {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
  
+.heart {
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+
+}
 
 
 /* Collapse Nav Button */
