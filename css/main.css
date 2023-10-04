@@ -381,10 +381,35 @@ h5 {
   }
 }
 
-.bluewb {
-  max-width: 50%;
-  max-height: 50%;
+
+@media (max-width: 767px) {
+  .whitecap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
 }
+
+
+@media (max-width: 767px) {
+  .bluefin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .seashell {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+}
+
 
 @media (max-width: 767px) {
   .bluewb {
