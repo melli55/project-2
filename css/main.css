@@ -321,8 +321,6 @@ h5 {
   align-items: center;
 }
 
-
-
 .container {
   display: flex;
   align-items: center;
@@ -331,13 +329,6 @@ h5 {
   margin-left: 25px;
   margin-right: 25px;
   gap: 50px;
-}
-
-@media (max-width: 767px) {
-  .container {
-    width: 50%;
-    height: 50%;
-  }
 }
 
 .whitewb {
@@ -353,8 +344,34 @@ h5 {
   justify-content: center;
 }
 
+@media (max-width: 767px) {
+  .whitewb {
+    width: 50%;
+    height: 50%;
+  }
+}
 
 
+.bluewb {
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 25px;
+  width: 125px;
+  height: 210px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  }
+
+  @media (max-width: 767px) {
+    .bluewb {
+      width: 50%;
+      height: 50%;
+    }
+  }
+  
 .greywb {
   margin-left: auto;
   margin-right: auto;
@@ -366,7 +383,12 @@ h5 {
   position: relative;
 }
 
-
+@media (max-width: 767px) {
+  .greywb {
+    width: 50%;
+    height: 50%;
+  }
+}
 
 .seashell {
   align-items: center;
@@ -390,7 +412,13 @@ h5 {
   margin-bottom: 20px;
 }
  
+@media (max-width: 767px) {
+  .revive-featured-wrapper,
+  .container {
+    flex-direction: column;
 
+  }
+}
 
 
 
