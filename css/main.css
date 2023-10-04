@@ -323,11 +323,8 @@ h5 {
 
 @media (max-width: 767px) {
   .revive-featured-wrapper {
-    flex-direction: column;
-    display: flex;
-    height: 80vh;
-    justify-content: space-between;
-    align-items: center;
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -343,13 +340,8 @@ h5 {
 
 @media (max-width: 767px) {
   .container {
-    display: flex;
-    align-items: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    gap: 20px
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -366,65 +358,7 @@ h5 {
   justify-content: center;
 }
 
-@media (max-width: 767px) {
-  .whitewb {
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid #ffffff;
-    background-color: #ffffff;
-    border-radius: 25px;
-    width: 125px;
-    height: 210px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-  }
-}
 
-
-@media (max-width: 767px) {
-  .whitecap {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
-  }
-}
-
-
-@media (max-width: 767px) {
-  .bluefin {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
-  }
-}
-
-@media (max-width: 767px) {
-  .seashell {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%;
-  }
-}
-
-
-@media (max-width: 767px) {
-  .bluewb {
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid #ffffff;
-    background-color: #ffffff;
-    border-radius: 25px;
-    width: 125px;
-    height: 210px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-  }
-}
 
 .greywb {
   margin-left: auto;
@@ -437,20 +371,7 @@ h5 {
   position: relative;
 }
 
-@media (max-width: 767px) {
-  .greywb {
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid #ffffff;
-    background-color: #ffffff;
-    border-radius: 25px;
-    width: 125px;
-    height: 210px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-  }
-}
+
 
 .seashell {
   align-items: center;
@@ -474,13 +395,7 @@ h5 {
   margin-bottom: 20px;
 }
  
-@media (max-width: 767px) {
-  .revive-featured-wrapper,
-  .container {
-    flex-direction: column;
 
-  }
-}
 
 
 
