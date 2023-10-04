@@ -373,8 +373,8 @@ h5 {
     border: 5px solid #ffffff;
     background-color: #ffffff;
     border-radius: 25px;
-    width: 62.5px;
-    height: 105px;
+    width: 125px;
+    height: 210px;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -382,14 +382,8 @@ h5 {
 }
 
 .bluewb {
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid #ffffff;
-  background-color: #ffffff;
-  border-radius: 25px;
-  width: 250px;
-  height: 420px;
-  position: relative;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 @media (max-width: 767px) {
@@ -399,8 +393,8 @@ h5 {
     border: 5px solid #ffffff;
     background-color: #ffffff;
     border-radius: 25px;
-    width: 62.5px;
-    height: 105px;
+    width: 125px;
+    height: 210px;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -425,8 +419,8 @@ h5 {
     border: 5px solid #ffffff;
     background-color: #ffffff;
     border-radius: 25px;
-    width: 62.5px;
-    height: 105px;
+    width: 125px;
+    height: 210px;
     position: relative;
     align-items: center;
     justify-content: center;
