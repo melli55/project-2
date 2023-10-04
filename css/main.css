@@ -321,12 +321,7 @@ h5 {
   align-items: center;
 }
 
-@media (max-width: 767px) {
-  .revive-featured-wrapper {
-    width: 50%;
-    height: 50%;
-  }
-}
+
 
 .container {
   display: flex;
