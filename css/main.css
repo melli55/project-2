@@ -1,23 +1,49 @@
 /* Place CSS styles here */
 
-/*Phones*/
-@media (max-width:480px) {
+/* media query for phones */
+@media (max-width: 480px) {
   h1 {
     font-size: 20px;
+  }
+
+  h2 {
+    font-size: 12px;
+    color: #e45757;
+
+ }
+
+  h3 {
+    font-size: 12px;
+    color: #e45757;
+
+}
+ 
+  h4 {
+    font-size: 12px;
+    color: #e45757;
+
+}
+  h5 {
+    font-size: 20px;
+    color: #e45757;
   }
 
   p {
     font-size: 12px;
   }
+
+  body {
+    background-color: #e45757;
+  }
 }
 
-/*tablet*/
+/* media query for tablet*/
 @media (min-width: 481px) and (max-width: 767px) {
   body {
   }
 }
 
-/*desktop*/
+/* media query for desktop*/
 @media (min-width: 768px) {
   body {
   }
@@ -38,7 +64,7 @@ p {
 }
 
 
-@media ()
+
 
 h1 {
   font-size: 35px;
@@ -92,7 +118,7 @@ h5 {
 
 @media (max-width: 767px) {
   .revive-header {
-    flex-direction: column;
+    flex-direction: row;
     gap: 16px;
     padding-top: 8px;
     padding-bottom: 8px ;
