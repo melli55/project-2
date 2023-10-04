@@ -1,5 +1,29 @@
 /* Place CSS styles here */
 
+/*Phones*/
+@media (max-width:480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+/*tablet*/
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+  }
+}
+
+/*desktop*/
+@media (min-width: 768px) {
+  body {
+  }
+}
+
+
 body {
   color: rgb(0, 0, 0);
   background-color: #f6f6f6;
@@ -14,6 +38,7 @@ p {
 }
 
 
+@media ()
 
 h1 {
   font-size: 35px;
@@ -63,6 +88,15 @@ h5 {
   height: 80px;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .revive-header {
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px ;
+  }
 }
 
 .revive-nav {
@@ -229,6 +263,15 @@ h5 {
   margin-bottom: 20px;
 }
  
+@media (max-width: 767px) {
+  .revive-featured-wrapper,
+  .container {
+    flex-direction: column;
+
+  }
+}
+
+
 
 
 
