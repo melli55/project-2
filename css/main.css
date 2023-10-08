@@ -245,12 +245,7 @@ h5 {
   ]
 }
 
-@media (max-width: 767px) {
-  .bpa-wrapper,
-  .bpacontainer {
-    flex-direction: row;
-  }
-}
+
 
 
 /*BPA Wrapper*/
@@ -316,6 +311,8 @@ h5 {
   justify-content: space-between;
   align-items: center;
 }
+
+
 
 .container {
   display: flex;
