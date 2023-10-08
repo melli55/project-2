@@ -66,7 +66,7 @@ h2 {
   text-align: center;
 
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   h2 {
     font-size: 8px;
     color: red;
@@ -158,7 +158,7 @@ h5 {
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 250px) {
   .logo {
   margin-left: 25px;
   max-width: 50%;
@@ -168,6 +168,7 @@ h5 {
 
 .logo {
   margin-left: 50px;
+  width: 100%;
 }
 
 
@@ -177,19 +178,18 @@ h5 {
   background: #6bc4eb;
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 45.5vh;
 }
 
 @media (max-width: 480px) {
   .hero-wrapper {
     background:#6bc4eb;
     display: flex;
-    height: 30vh;
   }
 }
 
 .hero-image {
-  height: 100%;
+  width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -282,26 +282,12 @@ h5 {
   gap: 10px;
 }
 
-@media (max-width: 767px) {
-  .bpacontainer {
-    display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
-    gap: 5px;
-  }
-}
+
 
 .recycled {
   margin-right: 30px;
 }
 
-@media (max-width: 480px) {
-  .recycle,
-  .bpa,
-  .ocean {
-    max-width: 50%;
-    max-height: 50%;
-  }
 
 .bpa-bit {
   margin-right: 30px;
@@ -354,12 +340,7 @@ h5 {
   justify-content: center;
 }
 
-@media (max-width: 767px) {
-  .whitewb {
-    width: 50%;
-    height: 50%;
-  }
-}
+
 
 
 .bluewb {
@@ -375,12 +356,7 @@ h5 {
   justify-content: center;
   }
 
-  @media (max-width: 767px) {
-    .bluewb {
-      width: 50%;
-      height: 50%;
-    }
-  }
+
   
 .greywb {
   margin-left: auto;
@@ -393,12 +369,6 @@ h5 {
   position: relative;
 }
 
-@media (max-width: 767px) {
-  .greywb {
-    width: 50%;
-    height: 50%;
-  }
-}
 
 .seashell {
   align-items: center;
@@ -474,21 +444,6 @@ h5 {
   height: 75vh;
 }
 
-@media (max-width: 767px) {
-  .bottom-wrapper {
-    flex-direction: column;
-    height: 50vh;
-    display: flex;
-  }
-}
-
-@media (max-width: 767px) {
-  .grayscale {
-    flex-direction: column;
-    max-width: 50%;
-    max-height: 50%;
-  }
-}
 
 .grayscale {
   flex-direction: column;
