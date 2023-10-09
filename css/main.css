@@ -208,6 +208,14 @@ h5 {
   width: 100%;
 }
 
+@media (max-width: 480px) {
+  .logo {
+    margin-left: 10px;
+    height: 50%;
+    width: 50%;
+  }
+}
+
 
 /* Hero Wrapper */
 .hero-wrapper {
@@ -282,8 +290,6 @@ h5 {
 @media (max-width: 480px) {
   .hero {
     float: right;
-    height: 50%;
-    width: 50%;
     margin-right: -20px;
   }
 }
@@ -834,7 +840,7 @@ h5 {
   .girl {
     float: right;
     margin-top: 300px;
-    width: 50%;
+    width: 60%;
     height: 50%;
   }
 }
@@ -860,7 +866,6 @@ h5 {
   .footer {
     align-items: center;
     float: left;
-    margin-top: 2px;
     margin-left: 2px;
   }
 }
