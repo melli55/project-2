@@ -281,7 +281,7 @@ h5 {
   .hero {
     float: right;
     height: auto;
-    margin-left: 150px;
+    margin-right: -20px;
   }
 }
 
@@ -289,7 +289,7 @@ h5 {
   .hero {
     float: right;
     height: auto;
-    margin-left: 550px;
+    margin-right: -100px;
   }
 }
 
@@ -812,6 +812,14 @@ h5 {
   }
 }
 
+@media (max-width: 480px)  {
+  .revive-footer {
+    background-color: #366275;
+    height: 61.5vh;
+    justify-content: space-between;
+  }
+}
+
 .girl {
   float: right;
   margin-top: 150px;  
@@ -825,6 +833,16 @@ h5 {
     height: 50%;
   }
 }
+
+@media (max-width: 480px)   {
+  .girl {
+    float: right;
+    margin-top: 325px;
+    width: 50%;
+    height: 50%;
+  }
+}
+
 
 .footer {
   align-items: center;
@@ -841,6 +859,15 @@ h5 {
     margin-left: 10px;
   }
 }
+
+@media (max-width: 480px) {
+  .footer {
+    align-items: center;
+    float: left;
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+}
     
 .forum {
   align-items: center;
@@ -854,7 +881,12 @@ h5 {
   }
 }
 
-
+@media (max-width: 480px)  {
+  .forum {
+    align-items: center;
+    margin-left: 5px;
+  }
+}
 
 
 
