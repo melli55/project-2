@@ -381,8 +381,8 @@ h5 {
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 1px;
   }
 }
@@ -575,9 +575,9 @@ h5 {
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 5px;
-    margin-right: 5px;
-    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1px;
     align-items: center;
   }
 }
