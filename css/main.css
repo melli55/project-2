@@ -352,7 +352,7 @@ h5 {
   .bpa-wrapper {
     flex-direction: column;
     display: flex;
-    height: 6vh;
+    height: 8vh;
   }
 }
 
@@ -375,6 +375,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .bpacontainer {
+    align-items: center;
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
@@ -563,7 +564,7 @@ h5 {
   .rrr-wrapper {
     flex-direction: column;
     display: flex;
-    height: 6vh;
+    height: 8vh;
   }
 }
 
@@ -575,6 +576,7 @@ h5 {
     margin-left: 5px;
     margin-right: 5px;
     gap: 5px;
+    align-items: center;
   }
 }
 
