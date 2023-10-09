@@ -381,9 +381,7 @@ h5 {
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 1px;
+    gap: auto;
   }
 }
 
@@ -391,23 +389,54 @@ h5 {
   margin-right: 30px;
 }
 
+@media (max-width: 480px)  {
+  .recycled {
+    margin-right: 10px;
+  }
+}
 
 .bpa-bit {
   margin-right: 30px;
 }
 
+@media (max-width: 480px)  {
+  .bpa-bit {
+    margin-right: 10px;
+  }
+}
+
+
 .recycle {
   margin-right: 30px;
 }
+
+@media (max-width: 480px)  {
+  .recycle {
+    margin-right: 10px;
+  }
+}
+
 
 .bpa {
   margin-right: 30px;
 }
 
+@media (max-width: 480px)  {
+  .bpa {
+    margin-right: 10px;
+  }
+}
+
+
 .ocean {
   margin-right: 30px;
 }
 
+@media (max-width: 480px)  {
+  .ocean {
+    margin-right: 10px;
+  }
+}
 
 
 /* Featured */
