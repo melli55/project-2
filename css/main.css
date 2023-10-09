@@ -293,7 +293,7 @@ h5 {
   .hero {
     float: right;
     height: auto;
-    margin-left: 250px;
+    margin-left: 550px;
   }
 }
 
@@ -376,6 +376,11 @@ h5 {
 @media (max-width: 480px)  {
   .bpacontainer {
     display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 5px;
   }
 }
 
