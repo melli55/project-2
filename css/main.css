@@ -629,7 +629,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .reduce {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -640,7 +640,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .reuse {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -650,7 +650,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .recycle {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -661,8 +661,8 @@ h5 {
 
 @media (max-width: 480px)  {
   .revive-image {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: auto;
   }
 }
 
