@@ -627,19 +627,44 @@ h5 {
   margin-right: 30px;
 }
 
+@media (max-width: 480px)  {
+  .reduce {
+    margin-right: 10px;
+  }
+}
+
 .reuse {
   margin-right: 30px;
 
+}
+
+@media (max-width: 480px)  {
+  .reuse {
+    margin-right: 10px;
+  }
 }
 
 .recycle {
   margin-right: 30px;
 }
 
+@media (max-width: 480px)  {
+  .recycle {
+    margin-right: 10px;
+  }
+}
+
 .revive-image {
   margin-right: 30px;
   margin-left: 30px;
 } 
+
+@media (max-width: 480px)  {
+  .revive-image {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
 
 /* Bottom Wrapper */
 .bottom-wrapper {
