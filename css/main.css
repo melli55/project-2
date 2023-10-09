@@ -385,12 +385,32 @@ h5 {
   }
 }
 
-.recycled {
+.recycle {
   margin-right: 30px;
 }
 
 @media (max-width: 480px)  {
-  .recycled {
+  .recycle {
+    margin-right: 10px;
+  }
+}
+
+.recycle-bit {
+  margin-right: 30px;
+}
+
+@media (max-width: 480px)  {
+  .recycle-bit {
+    margin-right: 10px;
+  }
+}
+
+.bpa {
+  margin-right: 30px;
+}
+
+@media (max-width: 480px)  {
+  .bpa {
     margin-right: 10px;
   }
 }
@@ -406,34 +426,22 @@ h5 {
 }
 
 
-.recycle {
-  margin-right: 30px;
-}
-
-@media (max-width: 480px)  {
-  .recycle {
-    margin-right: 10px;
-  }
-}
-
-
-.bpa {
-  margin-right: 30px;
-}
-
-@media (max-width: 480px)  {
-  .bpa {
-    margin-right: 10px;
-  }
-}
-
-
 .ocean {
   margin-right: 30px;
 }
 
 @media (max-width: 480px)  {
   .ocean {
+    margin-right: 10px;
+  }
+}
+
+.ocean-bit {
+  margin-right: 30px;
+}
+
+@media (max-width: 480px)  {
+  .ocean-bit {
     margin-right: 10px;
   }
 }
@@ -629,7 +637,17 @@ h5 {
 
 @media (max-width: 480px)  {
   .reduce {
-    margin-right: 5px;
+    margin-right: 10px;
+  }
+}
+
+.reduce-bit {
+  margin-right: 30px;
+}
+
+@media (max-width: 480px)  {
+  .reduce-bit {
+    margin-right: 10px;
   }
 }
 
@@ -640,7 +658,17 @@ h5 {
 
 @media (max-width: 480px)  {
   .reuse {
-    margin-right: 5px;
+    margin-right: 10px;
+  }
+}
+
+.reuse-bit {
+  margin-right: 30px;
+}
+
+@media (max-width: 480px)  {
+  .reuse-bit {
+    margin-right: 10px;
   }
 }
 
@@ -650,7 +678,17 @@ h5 {
 
 @media (max-width: 480px)  {
   .recycle {
-    margin-right: 5px;
+    margin-right: 10px;
+  }
+}
+
+.recycle2-bit {
+  margin-right: 30px;
+}
+
+@media (max-width: 480px)  {
+  .recycle2-bit {
+    margin-right: 10px;
   }
 }
 
@@ -661,8 +699,18 @@ h5 {
 
 @media (max-width: 480px)  {
   .revive-image {
-    margin-right: 5px;
+    margin-right: 10px;
     margin-left: auto;
+  }
+}
+
+.revive-bit {
+  margin-right: 30px;
+}
+
+@media (max-width: 480px)  {
+  .revive-bit {
+    margin-right: 10px;
   }
 }
 
