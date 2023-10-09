@@ -600,6 +600,7 @@ h5 {
     flex-direction: column;
     display: flex;
     height: 8vh;
+    justify-content: space-between;
   }
 }
 
@@ -608,8 +609,8 @@ h5 {
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1px;
+    margin-right: 1px;
     gap: 1px;
     align-items: center;
   }
@@ -633,7 +634,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .reduce {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -643,7 +644,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .reduce-bit {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -654,7 +655,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .reuse {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -664,7 +665,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .reuse-bit {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -674,7 +675,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .recycle {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -684,7 +685,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .recycle2-bit {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
@@ -695,7 +696,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .revive-image {
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: auto;
   }
 }
@@ -706,7 +707,7 @@ h5 {
 
 @media (max-width: 480px)  {
   .revive-bit {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
 
