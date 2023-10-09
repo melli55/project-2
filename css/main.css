@@ -284,7 +284,7 @@ h5 {
     float: right;
     height: 50%;
     width: 50%;
-    margin-right: -100px;
+    margin-right: -20px;
   }
 }
 
@@ -833,7 +833,7 @@ h5 {
 @media (max-width: 480px)   {
   .girl {
     float: right;
-    margin-top: 325px;
+    margin-top: 300px;
     width: 50%;
     height: 50%;
   }
