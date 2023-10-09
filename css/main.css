@@ -214,9 +214,11 @@ h5 {
   width: 100%;
 }
 
-
-
-
+@media (max-width: 480px)  {
+  .logo {
+    margin-left: 20px;
+    width: auto;
+  }
 
 
 /* Hero Wrapper */
@@ -272,7 +274,6 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
   }
 }
 
@@ -293,7 +294,7 @@ h5 {
   .hero {
     float: right;
     height: auto;
-    margin-left: 550px;
+    margin-left: 1000px;
   }
 }
 
@@ -344,7 +345,7 @@ h5 {
   .bpa-wrapper {
     flex-direction: column;
     display: flex;
-    height: 6vh;
+    height: 8vh;
   }
 }
 
@@ -392,6 +393,8 @@ h5 {
 @media (max-width: 480px)  {
   .recycle {
     margin-right: 10px;
+    height: 17.5;
+    width: 17.5;
   }
 }
 
@@ -412,6 +415,8 @@ h5 {
 @media (max-width: 480px)  {
   .bpa {
     margin-right: 10px;
+    height: 17.5;
+    width: 17.5;
   }
 }
 
@@ -433,6 +438,8 @@ h5 {
 @media (max-width: 480px)  {
   .ocean {
     margin-right: 10px;
+    height: 15;
+    width: 40;
   }
 }
 
@@ -595,7 +602,7 @@ h5 {
   .rrr-wrapper {
     flex-direction: column;
     display: flex;
-    height: 6vh;
+    height: 8vh;
   }
 }
 
