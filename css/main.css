@@ -197,7 +197,6 @@ h5 {
 @media (max-width: 480px) {
   .revive-header {
     display: flex;
-    height: 40px;
     align-items: center;
     background-color: #ffffff;
     justify-content: space-between;
@@ -215,13 +214,7 @@ h5 {
   width: 100%;
 }
 
-@media (max-width: 480px)  {
-  .logo {
-  margin-left: 2px;
-  max-width: 30%;
-  max-height: 30%;
-  }
-}
+
 
 
 
@@ -300,7 +293,7 @@ h5 {
   .hero {
     float: right;
     height: auto;
-    margin-left: 50px;
+    margin-left: 250px;
   }
 }
 
@@ -330,8 +323,8 @@ h5 {
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 20%;
-    width: 25%;
+    left: 30%;
+    width: 50%;
     color: #05fb74;
   }
 }
@@ -355,6 +348,15 @@ h5 {
   }
 }
 
+@media (max-width: 480px)  {
+  .bpa-wrapper {
+    flex-direction: column;
+    display: flex;
+    height: 6vh;
+  }
+}
+
+
 .bpacontainer {
   display: flex;
   align-items: center;
@@ -366,6 +368,12 @@ h5 {
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
+  .bpacontainer {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px)  {
   .bpacontainer {
     display: flex;
   }
@@ -414,6 +422,16 @@ h5 {
   }
 }
 
+@media (max-width: 480px)  {
+  .revive-featured-wrapper {
+    align-items: center;
+    display: flex;
+    height: 185vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -431,6 +449,19 @@ h5 {
     align-items: center;
     margin-top: 25px;
     margin-bottom: 25px;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 480px)  {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
     gap: 10px;
     margin-left: auto;
     margin-right: auto;
