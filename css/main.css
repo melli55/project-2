@@ -283,7 +283,6 @@ h5 {
 .hero {
   float: right;
   height: auto;
-
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
