@@ -299,6 +299,7 @@ h5 {
   .hero {
     float: right;
     margin-right: -20px;
+    height: auto;
   }
 }
 
