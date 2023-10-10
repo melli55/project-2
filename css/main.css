@@ -244,7 +244,7 @@ h5 {
   .hero-wrapper {
     background:#6bc4eb;
     display: flex;
-    height: 60vh;
+    height: 45.5vh;
     flex-direction: column;
   }
 }
@@ -283,6 +283,8 @@ h5 {
 .hero {
   float: right;
   height: auto;
+  height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
@@ -297,6 +299,8 @@ h5 {
   .hero {
     float: right;
     margin-right: -20px;
+    height: 50%;
+    width: 100%;
   }
 }
 
@@ -825,7 +829,7 @@ h5 {
 @media (max-width: 480px)   {
   .girl {
     float: right;
-    margin-top: 100px;
+    margin-top: 110px;
     width: 60%;
     height: 50%;
   }
