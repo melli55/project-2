@@ -892,6 +892,20 @@ h5 {
   margin-top: 50px;
 }
 
+@media (max-width: 480px)  {
+.forum-signup2 {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+}
+
+@media (max-width: 480px)  {
+.footer-box2 {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+}
+
 .forum-image {
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
@@ -923,7 +937,7 @@ h5 {
     float: right;
     align-items: center;
     margin-top: 50px;
-    margin-right: 200px;
+    margin-right: 100px;
   }
 }
 
