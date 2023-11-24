@@ -228,7 +228,7 @@ h5 {
   background: #6bc4eb;
   display: flex;
   flex-direction: column;
-  height: 45.5vh;
+  height: 65vh;
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
@@ -282,7 +282,7 @@ h5 {
 
 .hero {
   float: right;
-  height: 45.6vh;
+  height: 65vh;
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
@@ -461,8 +461,18 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: url("wave.png");
 }
+
+.revive-back {
+  background-image: url("revive back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
 
 @media (min-width: 481px) and (max-width: 767px)  {
   .revive-featured-wrapper {
