@@ -282,7 +282,7 @@ h5 {
 
 .hero {
   float: right;
-  height: auto;
+  height: 45.6vh;
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
@@ -846,7 +846,7 @@ h5 {
 }
 
 .revive-footer {
-  height: 50vh;
+  height: 53vh;
   background-color: #154255;
 }
 
