@@ -346,6 +346,7 @@ h5 {
   align-items: center;
 }
 
+
 @media (min-width: 481px) and (max-width: 767px)  {
   .bpa-wrapper {
     flex-direction: column;
@@ -403,6 +404,10 @@ h5 {
 
 .recycle-bit {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -423,6 +428,10 @@ h5 {
 
 .bpa-bit {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -444,6 +453,10 @@ h5 {
 
 .ocean-bit {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -652,6 +665,10 @@ h5 {
 
 .reduce {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -662,6 +679,10 @@ h5 {
 
 .reduce-bit {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -672,7 +693,10 @@ h5 {
 
 .reuse {
   margin-right: 30px;
-
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -683,6 +707,10 @@ h5 {
 
 .reuse-bit {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -693,6 +721,10 @@ h5 {
 
 .recycle {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -703,6 +735,10 @@ h5 {
 
 .recycle2-bit {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
@@ -725,6 +761,10 @@ h5 {
 
 .revive-bit {
   margin-right: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #366275;
+  text-align: center; 
 }
 
 @media (max-width: 480px)  {
