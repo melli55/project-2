@@ -147,7 +147,7 @@ h3 {
 
 h4 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -930,7 +930,7 @@ h5 {
   margin-right: auto;
   background-color: #366275;
   border-radius: 25px;
-  width: 300px;
+  width: 310px;
   height: 100px;
   position: relative;
   align-items: center;
@@ -1008,7 +1008,7 @@ h5 {
   font-size: 15px;
   float: right;
   text-align: left;
-  margin-right: 60px;
+  margin-right: 30px;
 }
 
 .rights {
@@ -1198,6 +1198,22 @@ h5 {
   justify-content: space-between;
 }
 
+.about-wrapper2 {
+  background: #366275;
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.about-image2 {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .about-image {
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
@@ -1216,6 +1232,11 @@ h5 {
   color: #fefefe;
   width: 70%;
 } 
+
+.bwad {
+  width: 100%;
+  height: auto;
+}
 
 
 .blue {
