@@ -34,6 +34,10 @@ body {
 
 }
 
+
+
+
+
 p {
   margin-left: 15px;
   font-size: 14px;
@@ -56,6 +60,11 @@ p {
   }
 }
 
+
+
+
+
+
 h1 {
   font-size: 35px;
   font-weight: bold;
@@ -77,6 +86,9 @@ h1 {
     font-weight: bold;
   }
 }
+
+
+
 
 
 h2{
@@ -110,26 +122,31 @@ h2{
 
 
 
-
-
-h4 {
+h3 {
   font-size: 25px;
   color: #ffffff;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
-  h4 {
+  h3 {
     font-size: 20px;
     color: #ffffff;
   }
 }
 
 @media (max-width: 480px)  {
-  h4 {
+  h3 {
     font-size: 15px;
     color: #ffffff;
   }
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 
