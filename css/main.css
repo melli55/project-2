@@ -488,6 +488,7 @@ h5 {
 }
 
 
+
 @media (min-width: 481px) and (max-width: 767px)  {
   .revive-featured-wrapper {
     align-items: center;
@@ -880,7 +881,7 @@ h5 {
 /* Footer */
 .girl {
   float: right;
-  margin-top: -350px;  
+  margin-top: -360px;  
   width: 600px;
   height: 400px;
 }
@@ -1033,7 +1034,7 @@ h5 {
   background-color: #154255;
   height: 50px;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .rights-text {
@@ -1043,14 +1044,39 @@ h5 {
   margin-top: auto;
 }
 
+.rights2 {
+  display: flex;
+  background-color: #ffffff;
+  height: 50px;
+  justify-content: center;
+  margin-top: 40px;
+}
 
+.rights-text2 {
+  color: #013850;
+  font-size: 15px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
 
+.rights3 {
+  display: flex;
+  background-color: #154255;
+  height: 50px;
+  justify-content: center;
+}
 
+.rights-text3 {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
 
 
 /*Sign Up*/
 .sign-wrapper1 {
-  background: #33BFD8;
+  background: #003755;
   display: flex;
   flex-direction: column;
   height: 50vh;
@@ -1060,7 +1086,7 @@ h5 {
 .sign-image1 {
   position: relative;
   height: 85vh;
-  background-color: #33BFD8;
+  background-color: #003755;
 }
 
 .sign-text1 {
@@ -1099,7 +1125,7 @@ h5 {
 }
 
 .sign-wrapper3 {
-  background: #003755;
+  background: #33BFD8;
   display: flex;
   flex-direction: column;
   height: 50vh;
@@ -1109,7 +1135,7 @@ h5 {
 .sign-image3 {
   position: relative;
   height: 85vh;
-  background-color: #003755;
+  background-color: #33BFD8;
 }
 
 .sign-text3 {
@@ -1123,21 +1149,23 @@ h5 {
 } 
 
 .sign-wrapper2 {
-  background: #33BFD8;
+  background: #003755;
   display: flex;
   flex-direction: column;
   height: 45vh;
   justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sign-image2 {
   position: relative;
   height: 85vh;
-  background-color: #33BFD8;
+  background-color: #003755;
 }
 
 .footer-box2 {
-  margin-left: 100px;
   margin-top: 50px;
 }
 
@@ -1255,7 +1283,7 @@ h5 {
   background: #6bc4eb;
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  height: 85vh;
   justify-content: space-between;
 }
 
@@ -1272,7 +1300,7 @@ h5 {
   text-align: center;
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   width: 50%;
