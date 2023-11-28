@@ -1049,14 +1049,15 @@ h5 {
   background-color: #ffffff;
   height: 50px;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 60px;
+  width: auto;
 }
 
+
 .rights-text2 {
-  color: #013850;
+  color: #003755;
   font-size: 15px;
   margin-bottom: auto;
-  margin-top: auto;
 }
 
 .rights3 {
@@ -1076,7 +1077,7 @@ h5 {
 
 /*Sign Up*/
 .sign-wrapper1 {
-  background: #003755;
+  background: #6bc4eb;
   display: flex;
   flex-direction: column;
   height: 50vh;
@@ -1086,7 +1087,7 @@ h5 {
 .sign-image1 {
   position: relative;
   height: 85vh;
-  background-color: #003755;
+  background-color: #366275;
 }
 
 .sign-text1 {
@@ -1125,7 +1126,7 @@ h5 {
 }
 
 .sign-wrapper3 {
-  background: #33BFD8;
+  background: #003755;
   display: flex;
   flex-direction: column;
   height: 50vh;
@@ -1135,7 +1136,7 @@ h5 {
 .sign-image3 {
   position: relative;
   height: 85vh;
-  background-color: #33BFD8;
+  background-color: #003755;
 }
 
 .sign-text3 {
@@ -1149,35 +1150,40 @@ h5 {
 } 
 
 .sign-wrapper2 {
-  background: #003755;
+  background: #366275;
   display: flex;
   flex-direction: column;
-  height: 45vh;
+  height: 60vh;
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
 
+
 .sign-image2 {
   position: relative;
   height: 85vh;
-  background-color: #003755;
+  background-color: #366275;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-box2 {
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sign-signup2 {
-  margin-left: 100px;
+  margin-left: 55px;
+  margin-right: auto;
   margin-top: 50px;
 }
 
 @media (max-width: 480px)  {
 .sign-signup2 {
-  margin-left: 80px;
-  margin-top: 50px;
+  
 }
 }
 
@@ -1202,7 +1208,7 @@ h5 {
 }
 
 .about-wrapper2 {
-  background: #366275;
+  background: #D2E2DC;
   display: flex;
   height: auto;
   align-items: center;
@@ -1210,7 +1216,7 @@ h5 {
 
 .about-image2 {
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  background-image: linear-gradient(#D2E2DC, #D2E2DC), url("green ad.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1382,21 +1388,3 @@ h5 {
   margin-top: 50px;
 }
 
-.footer-box2 {
-  margin-left: 100px;
-  margin-top: 50px;
-}
-
-@media (max-width: 480px)  {
-.forum-signup2 {
-  margin-left: 80px;
-  margin-top: 50px;
-}
-}
-
-@media (max-width: 480px)  {
-.footer-box2 {
-  margin-left: 80px;
-  margin-top: 50px;
-}
-}
