@@ -41,7 +41,7 @@ body {
 p {
   margin-left: 15px;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -792,9 +792,6 @@ h5 {
 }
 
 
-
-
-
 /* Bottom Wrapper */
 .bottom-wrapper {
   background: #366275;
@@ -906,13 +903,10 @@ h5 {
   }
 }
 
-.footer-image {
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.help-image {
   position: relative;
+  height: 85vh;
+  background-color: #154255;
 }
 
 .revive-footer {
@@ -986,13 +980,13 @@ h5 {
 }
 
 .footer-text-box {
-  margin-left: 50px;
+  margin-left: 80px;
   margin-right: auto;
   margin-top: 100px;
   background-color: #154255;
   border-radius: 25px;
   width: 450px;
-  height: 330px;
+  height: 350px;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -1237,13 +1231,11 @@ h5 {
   position: relative;
 }
 
+
 .about-image {
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
+  height: 85vh;
+  background-color: #366275;
 }
 
 .about-text {
@@ -1253,7 +1245,7 @@ h5 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fefefe;
-  width: 70%;
+  width: 50%;
 } 
 
 .bwad {
@@ -1279,17 +1271,17 @@ h5 {
   }
 }
 
-.footer-text {
+.help-text {
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fefefe;
-  width: 70%;
+  width: 50%;
 }
 
-.footer-wrapper {
+.help-wrapper {
   background: #6bc4eb;
   display: flex;
   flex-direction: column;
