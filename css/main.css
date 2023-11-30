@@ -54,8 +54,8 @@ p {
 
 @media (max-width: 480px) {
   p {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 10px;
+    line-height: 14px;
     margin-left: 10px;
   }
 }
@@ -401,9 +401,9 @@ h5 {
   .bpa-wrapper {
     flex-direction: column;
     display: flex;
-    height: 8vh;
-    align-items: center;
-    justify-content: space-between;
+    height: 7vh;
+    margin-bottom: auto;
+    margin-top: auto;
   }
 }
 
@@ -732,7 +732,7 @@ h5 {
   .rrr-wrapper {
     flex-direction: column;
     display: flex;
-    height: 8vh;
+    height: 7vh;
     justify-content: space-between;
   }
 }
@@ -744,7 +744,7 @@ h5 {
     margin-bottom: auto;
     margin-left: 1px;
     margin-right: 1px;
-    gap: 1px;
+    gap: auto;
     align-items: center;
   }
 }
@@ -758,6 +758,7 @@ h5 {
   margin-right: 15px;
   gap: 10px;
 }
+
 
 
 
