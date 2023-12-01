@@ -7,25 +7,17 @@ body, html {
 
 
 /* media query for phones */
-@media (max-width: 480px) {
-  body {
-    background-color: #e45757;
-  }
+(max-width: 480px) 
 
-/* media query for tablet*/
-@media (min-width: 481px) and (max-width: 767px) {
-  body {
-    background-color: purple;
-  }
-}
+/* media query for Ipad Pro*/
+(min-width: 997px) and (max-width: 1024px)  
 
-/* media query for desktop*/
-@media (min-width: 768px) {
-  body {
-    background-color: green;
-  }
-}
-}
+/*media query for Ipad Air */
+(min-width: 820px) and (max-width: 996px)  
+
+/*media query for Ipad Mini */
+(min-width: 768px) and (max-width: 819px)  
+
 
 body {
   color: rgb(0, 0, 0);
@@ -40,6 +32,7 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
+
 
 @media (min-width: 997px) and (max-width: 1024px)  {
   p {
@@ -297,6 +290,15 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .hero-wrapper {
+    background:#6bc4eb;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 767px)  {
   .hero-wrapper {
     background:#6bc4eb;
@@ -359,6 +361,14 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .hero {
+    float: right;
+    height: 50vh;
+    margin-right: -18px;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 767px)  {
   .hero {
     float: right;
@@ -386,6 +396,16 @@ h5 {
 } 
 
 @media (min-width: 819px) and (max-width: 1024px)  {
+  .hero-text {
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    color: #ffffff;
+    text-shadow: -2px 0px 9px #000000;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
   .hero-text {
     top: 50%;
     left: 50%;
@@ -434,6 +454,14 @@ h5 {
 }
 
 @media (min-width: 997px) and (max-width: 1024px)  {
+  .bpa-wrapper {
+    flex-direction: column;
+    display: flex;
+    height: 5vh;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
   .bpa-wrapper {
     flex-direction: column;
     display: flex;
@@ -515,6 +543,16 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .recycle-bit {
+    margin-right: 10px;
+    font-size: 15px;
+    margin-top: -3px;
+    margin-bottom: auto;
+
+  }
+}
+
 .bpa {
   margin-right: 30px;
   height: 35px;
@@ -539,6 +577,22 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .bpa {
+    margin-right: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #366275;
+    text-align: center; 
+    width: 35px;
+    height: 35px;
+    margin-left: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+}
+
 
 .bpa-bit {
   margin-right: 30px;
@@ -555,6 +609,14 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .bpa-bit {
+    margin-right: 10px;
+    font-size: 15px;
+    margin-top: -3px;
+    margin-bottom: auto;
+  }
+}
 
 .ocean {
   margin-right: 30px;
@@ -580,12 +642,37 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .ocean {
+    margin-right: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #366275;
+    text-align: center; 
+    width: 65px;
+    height: 35px;
+    margin-left: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
 .ocean-bit {
   margin-right: 30px;
   font-size: 15px;
   text-transform: uppercase;
   color: #366275;
   text-align: center; 
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
+  .ocean-bit {
+    margin-right: 10px;
+    font-size: 15px;
+    margin-top: -3px;
+    margin-bottom: auto;
+
+  }
 }
 
 @media (max-width: 480px)  {
@@ -611,6 +698,16 @@ h5 {
     align-items: center;
     display: flex;
     height:120vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
+  .revive-featured-wrapper {
+    align-items: center;
+    display: flex;
+    height:143vh;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -652,6 +749,12 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .revive-back {
+    height: 0;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 767px)  {
 .revive-back {
   height: 0;
@@ -676,6 +779,19 @@ h5 {
 
 @media (min-width: 997px) and (max-width: 1024px)  {
  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 128px;
+    margin-bottom: 25px;
+    gap: 55px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
+  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -818,6 +934,12 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .rrr-wrapper {
+    height: 5vh;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 767px)  {
   .rrr-wrapper {
     height: 8vh;
@@ -856,8 +978,6 @@ h5 {
 }
 
 
-
-
 .reduce {
   margin-right: 30px;
   font-size: 15px;
@@ -874,6 +994,21 @@ h5 {
     margin-left: 78px;
     height: 25px;
     width: 25px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
+  .reduce {
+    margin-right: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #366275;
+    text-align: center; 
+    width: 35px;
+    height: 35px;
+    margin-left: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
@@ -911,6 +1046,21 @@ h5 {
   }
 }
 
+@media (min-width: 820px) and (max-width: 996px) {
+  .reuse {
+    margin-right: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #366275;
+    text-align: center; 
+    width: 35px;
+    height: 35px;
+    margin-left: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
 .reuse-bit {
   margin-right: 30px;
   font-size: 15px;
@@ -934,6 +1084,21 @@ h5 {
   text-align: center; 
   width: 35px;
   height: 35px;
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
+  .recycle {
+    margin-right: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #366275;
+    text-align: center; 
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 @media (max-width: 480px)  {
@@ -960,6 +1125,21 @@ h5 {
   height: 35px;
   width: 35px;
   margin-left: 15px;
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
+  .recycle2 {
+    margin-right: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #366275;
+    text-align: center; 
+    width: 35px;
+    height: 35px;
+    margin-left: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px)  {
@@ -1009,6 +1189,19 @@ h5 {
     margin-left: auto;
     height: 25px;
     width: 25px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
+  .revive-image {
+    margin-right: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #366275;
+    text-align: center; 
+    width: 35px;
+    height: 35px;
+    margin-left: 24px;
   }
 }
 
@@ -1130,6 +1323,15 @@ h5 {
   height: 400px;
 }
 @media (min-width: 997px) and (max-width: 1024px)  {
+  .girl {
+    float: right;
+    margin-top: -320px;
+    width: 473px;
+    height: 366px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 996px) {
   .girl {
     float: right;
     margin-top: -320px;
