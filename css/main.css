@@ -29,7 +29,7 @@ body, html {
 
 (min-width: 400px) and (max-width: 414px)  
 
-(min-width: 375px) and (max-width: 389px) 
+(min-width: 375px) and (max-width: 1024px) 
 
 
 Iphone Se: 375
@@ -289,6 +289,56 @@ h5 {
   justify-content: space-between;
 }
 
+.revive-header2 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .hamburger {
+    height: 0;
+    width: 0;
+  }
+}
+
+
+
+@media (min-width: 300px) and (max-width: 1024px)   {
+  .navinfo {
+    margin-right: 0;
+    gap: 0;
+    font-size: 0;
+    color: #ffffff;
+  }
+}
+
+.navinfo {
+  display: flex;
+  margin-right: 30px;
+  justify-content: space-between;
+  gap: 25px;
+  font-size: 16px;
+}
+
+.navinfo a {
+  color: #013850;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (min-width: 375px) and (max-width: 1024px)   {
+  .navinfo a {
+    color: none;
+    text-decoration: none;
+    text-transform: none;
+  }
+}
+
+
+
 @media (min-width: 481px) and (max-width: 767px)  {
   .revive-header {
     display: flex;
@@ -308,6 +358,7 @@ h5 {
   }
 }
 
+
 .revive-nav {
   display: flex;
   float: right;
@@ -315,6 +366,10 @@ h5 {
 }
 
 .revivelogo {
+  height: 40px;
+}
+
+.revivelogo2 {
   height: 40px;
 }
 
@@ -326,6 +381,12 @@ h5 {
 }
 
 .logo {
+  margin-left: 30px;
+  width: 50%;
+  height: 50%;
+}
+
+.logo2 {
   margin-left: 30px;
   width: 50%;
   height: 50%;
@@ -1564,6 +1625,33 @@ h5 {
 
 
 /* Collapse Nav Button */
+@media (max-width: 1024px) {
+  .sidebar1 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #003755;
+    text-transform: uppercase;
+    display: block;
+    align-content: space-between;
+    gap: 5px;
+    margin-right: 10px;
+}
+}
+
+@media (max-width: 1024px) {
+.sidebar1  {
+  text-decoration: none;
+  font-size: 25px;
+  color: #003755;
+  text-transform: uppercase;
+  display: block;
+  align-content: space-between;
+  gap: 5px;
+  margin-right: 10px;
+}
+}
+
+@media (max-width: 1024px) {
 .sidebar {
   height: 100%;
   width: 0;
@@ -1576,8 +1664,10 @@ h5 {
   transition: 0.5s;
   padding-top: 60px;
   }
-  
-  .sidebar a {
+}
+
+@media (max-width: 1024px) {
+.sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -1585,11 +1675,15 @@ h5 {
     display: block;
     transition: 0.3s;
   }
-  
+}
+ 
+@media (max-width: 1024px) {
   .sidebar a:hover {
     color: #154255;
   }
-  
+}
+ 
+@media (max-width: 1024px) {
   .sidebar .closebtn {
     position: absolute;
     top: 0;
@@ -1597,7 +1691,9 @@ h5 {
     font-size: 36px;
     margin-left: 50px;
   }
-  
+}
+
+@media (max-width: 1024px) {
   .openbtn {
     font-size: 20px;
     cursor: pointer;
@@ -1606,16 +1702,21 @@ h5 {
     padding: 10px 15px;
     border: none;
   }
-  
+}
+
+@media (max-width: 1024px) {
   .openbtn:hover {
     background-color: #013850;
   }
-  
+}
+
+@media (max-width: 1024px) {
   #button {
     transition: margin-left .5s;
     padding: 16px;
   }
-  
+}
+
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
