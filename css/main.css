@@ -407,11 +407,20 @@ h5 {
   }
 }
 
+@media (min-width: 414px) and (max-width: 429px)  {
+  .hero-wrapper {
+    background:#6bc4eb;
+    display: flex;
+    height: 30.5vh;
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 389px)   {
   .hero-wrapper {
     background:#6bc4eb;
     display: flex;
-    height: 38vh;
+    height: 38.5vh;
     flex-direction: column;
   }
 }
@@ -498,6 +507,13 @@ h5 {
     }
 }
 
+@media (min-width: 414px) and (max-width: 429px)  {
+  .hero {
+    height: 30vh;
+    margin-left: -101px;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 389px)  {
   .hero {
     margin-left: 0vh;
@@ -541,6 +557,16 @@ h5 {
     top: 50%;
     left: 77%;
     width: 40%;
+    color: #ffffff;
+    text-shadow: -2px 0px 9px #000000;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 429px)  {
+  .hero-text {
+    top: 50%;
+    left: 70%;
+    width: 70%;
     color: #ffffff;
     text-shadow: -2px 0px 9px #000000;
   }
@@ -888,6 +914,16 @@ h5 {
   align-items: center;
 }
 
+@media (min-width: 414px) and (max-width: 429px)  {
+  .revive-featured-wrapper {
+    display: flex;
+    height: 175vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
 @media (min-width: 997px) and (max-width: 1024px)  {
   .revive-featured-wrapper {
     align-items: center;
@@ -1007,6 +1043,19 @@ h5 {
     flex-direction: column;
     align-items: center;
     margin-top: 128px;
+    margin-bottom: 25px;
+    gap: 55px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 429px)  {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
     margin-bottom: 25px;
     gap: 55px;
     margin-left: auto;
